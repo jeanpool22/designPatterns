@@ -7,6 +7,10 @@ public class TarjetaCredito {
     private String fechaExpiracion;
 
     public TarjetaCredito(String number, String s, int i, String s1) {
+        this.numeroTarjeta = number;
+        this.titular = s;
+        this.cvv = i;
+        this.fechaExpiracion = s1;
     }
 
     public boolean procesarPago() {

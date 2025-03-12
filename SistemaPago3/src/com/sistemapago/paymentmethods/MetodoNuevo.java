@@ -5,6 +5,8 @@ public class MetodoNuevo {
     private String identificadorUsuario;
 
     public MetodoNuevo(String apiKey, String identificadorUsuario) {
+        this.apiKey = apiKey;
+        this.identificadorUsuario = identificadorUsuario;
     }
 
     public boolean ejecutarPago() {

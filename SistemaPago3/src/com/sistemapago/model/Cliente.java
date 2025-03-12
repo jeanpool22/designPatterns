@@ -6,11 +6,14 @@ public class Cliente {
     private String nombre;
     private String apellido;
     private Date fechaCompra;
-    private int valorCompra;
-    private Pago tipoDePago;
     private String correo;
 
-    public Cliente(String pepito, String pérez, String mail) {
+    public Cliente(String nombrep, String apellidop, String mail) {
+        this.nombre = nombrep;
+        this.apellido = apellidop;
+        this.fechaCompra = new Date();
+        this.correo = mail;
+
     }
 
     public boolean realizarPago(Pago pago) {
@@ -18,11 +21,11 @@ public class Cliente {
         return true;
     }
 
-    public Object getNombre() {
-        return null;
+    public String getNombre() {
+        return this.nombre;
     }
 
-    public Object getApellido() {
-        return null;
+    public String getApellido() {
+        return this.apellido;
     }
 }
