@@ -1,9 +1,9 @@
-package com.sistemapago.model;
+package SistemaPago3.src.com.sistemapago.model;
 
 import java.util.Date;
-import com.sistemapago.paymentmethods.PayPal;
-import com.sistemapago.paymentmethods.TarjetaCredito;
-import com.sistemapago.paymentmethods.MetodoNuevo;
+import SistemaPago3.src.com.sistemapago.paymentmethods.PayPal;
+import SistemaPago3.src.com.sistemapago.paymentmethods.TarjetaCredito;
+import SistemaPago3.src.com.sistemapago.paymentmethods.MetodoNuevo;
 
 public class Pago {
     private Date fechaPago;

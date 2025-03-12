@@ -1,23 +1,8 @@
+package Ejercicio2;
 
 import java.util.UUID;
 import java.util.ArrayList;
 import java.util.List;
-
-public class Main {
-    public static void main(String[] args) {
-        ServidorMensajeria servidor = new ServidorMensajeria();
-
-        Usuario usuario = new Usuario("Santiago", servidor);
-
-        Movil movil1 = new Movil("Santiago");
-        Computador pc1 = new Computador("Santiago");
-
-        servidor.agregarDispositivo(movil1);
-        servidor.agregarDispositivo(pc1);
-
-        usuario.enviarMensaje("Hola, este es un mensaje en tiempo real!");
-    }
-}
 
 interface Dispositivo {
     void actualizar(Mensaje mensaje);

@@ -1,6 +1,6 @@
-package com.sistemapago.service;
+package SistemaPago3.src.com.sistemapago.service;
 
-import com.sistemapago.model.Pago;
+import SistemaPago3.src.com.sistemapago.model.Pago;
 
 public class Service {
     public boolean aplicarPagoTC(Pago pagotc) {

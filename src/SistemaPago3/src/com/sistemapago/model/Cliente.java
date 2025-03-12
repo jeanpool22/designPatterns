@@ -1,4 +1,4 @@
-package com.sistemapago.model;
+package SistemaPago3.src.com.sistemapago.model;
 
 import java.util.Date;
 

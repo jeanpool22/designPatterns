@@ -1,7 +1,7 @@
-package com.sistemapago.adapter;
+package SistemaPago3.src.com.sistemapago.adapter;
 
-import com.sistemapago.SistemaPago;
-import com.sistemapago.model.Pago;
+import SistemaPago3.src.com.sistemapago.SistemaPago;
+import SistemaPago3.src.com.sistemapago.model.Pago;
 
 public class AdaptadorPagoTradicional implements SistemaPago {
     private Pago tipoPago;

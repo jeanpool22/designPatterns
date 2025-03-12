@@ -1,4 +1,4 @@
-package com.sistemapago.paymentmethods;
+package SistemaPago3.src.com.sistemapago.paymentmethods;
 
 public class MetodoNuevo {
     private String apiKey;
