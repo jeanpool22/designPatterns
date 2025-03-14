@@ -1,0 +1,17 @@
+
+												PATRON DE ARQUITECTURA EJERCICIO 01
+					
+______________________________________________________________________________________________________________________________________________________
+
+Para el ejercicio numero 1 se propone que se adapta el patron de arquitectura Prototype Pattern (Patrón Prototipo). Ya que El Prototype Pattern es un patrón creacional que permite crear nuevos objetos copiando una instancia existente en lugar de construirlos desde cero. Es útil cuando la creación de un objeto es costosa o compleja, y se necesita generar múltiples instancias similares con pequeñas variaciones.
+Cómo se aplica en el problema #1:
+1.	Se define un prototipo base para los héroes, que incluye todas sus propiedades y métodos.
+2.	Cada héroe (guerrero, mago, arquero) puede heredar del prototipo base y tener su propio conjunto de habilidades.
+3.	Cuando un jugador clona un héroe, se crea una copia del prototipo, asegurando que los atributos como habilidades, nivel, puntos de experiencia y estadísticas se copien correctamente.
+4.	Los jugadores pueden modificar aspectos como el nombre y la apariencia del clon sin afectar al héroe original.
+5.	El uso del patrón evita la duplicación innecesaria de datos al compartir recursos comunes (como referencias a habilidades en lugar de duplicarlas en memoria).
+
+Ventajas del Prototype Pattern en este ejercicio:
+•	Eficiencia: Evita la recreación desde cero de objetos complejos.
+•	Flexibilidad: Permite personalizar los clones sin afectar el original.
+•	Facilidad de mantenimiento: Si se cambia la estructura de un héroe base, todos los clones se actualizarán automáticamente.
