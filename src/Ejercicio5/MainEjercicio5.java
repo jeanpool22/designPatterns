@@ -1,3 +1,5 @@
+package Ejercicio5
+
 interface Component {
     String getDescription();
 }
@@ -62,7 +64,7 @@ class HighQualityWine extends HotelRoomDecorator {
     }
 }
 
-public class Main {
+public class MainEjercicio5 {
     public static void clientCode(Component component) {
         System.out.println("Resultado: " + component.getDescription());
     }
